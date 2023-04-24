@@ -1,7 +1,10 @@
 body,html{
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: rgb(240, 239, 239);
+}
+input::placeholder {
+    color: lightgrey;
 }
 
 .container {
@@ -16,11 +19,56 @@ body,html{
 .login-box{
     width:30%;
     height:50%;
-    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
     border-radius: 30px;
+    font-family: inherit;
+    
+    
 
+}
+.login-box * {
+    font-family: sans-serif;
+    margin:5%;
+    padding-bottom:10px;
+    justify-content: space-around;
 }
 
 .login-box h1{
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 60%;
+}
+.login-box input,button{
+    
+    font-size: 16px;
+}
+
+.login-box input{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    width:95%;
+}
+
+.login-box button{
+    background-color: rgb(1, 153, 255);
+    border-radius: 30px;
+    padding: 15px;
+    width:100%;
+    color: white;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.25);
+    border: 5px;
 }
