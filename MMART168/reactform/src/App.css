@@ -1,12 +1,22 @@
-.App {
-  text-align: center;
-}
-
-column{
-  display:flex;
-  flex-direction: column;
-}
-row{
+form{
   display:flex;
   flex-direction: row;
+}
+.form-column{
+  display:flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.form-row{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-column:last-child{
+  margin-right: 0px;
+}
+
+.form-row:last-child{
+  margin-bottom: 0px;
 }

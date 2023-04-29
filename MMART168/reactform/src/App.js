@@ -5,17 +5,27 @@ function App() {
   return (
     <div className="App">
       <form>
-        <row>
-          <column className="form-item">
-            <label>First Name</label>
-            <input placeholder="John"></input>
-          </column>
-          <column>
+        <div className="form-column">
+          column
+          <div className="form-row" >
+            <label>First name</label>
+            <input placeholder="John"></input> 
+          </div>
+          <div className="form-row">
+            <label>Last name</label>
             <input placeholder="Smith"></input>
-          </column>  
-          
-          
-        </row>
+          </div>
+        </div>
+        <div className="form-column">
+          column
+          <div className="form-row">
+            <label>Email address</label>
+            <input placeholder="john@example.com"></input>
+          </div>
+          <div className="form-row">
+            row
+          </div>
+        </div>
       </form>
     </div>
   );
