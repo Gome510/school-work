@@ -1,0 +1,23 @@
+html, body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.page-wrapper{
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+.footer, .push{
+    height: 50px;
+}
+.footer{
+    position: relative;
+}
