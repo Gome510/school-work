@@ -1,0 +1,11 @@
+span{
+    display: inline;  
+}
+
+.blank{
+    font-weight: bold;
+}
+img{
+    display: flex;
+    width:25%
+}
