@@ -11,30 +11,82 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnInbox" autocomplete="off" checked>
-                    <label class="btn btn-outline-primary" for="btnradio1">Inbox</label>
-                  
-                    <input type="radio" class="btn-check" name="btnradio" id="btnSent" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btnradio2">Sent</label>
-                  
-                    <input type="radio" class="btn-check" name="btnradio" id="btnDrafts" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btnradio3">Drafts</label>
+    <div class="container outline">
+        <div class="row">
+            <nav class="navbar navbar-expand bg-body-tertiary">
+                <div class="col-4">
+                    <div class="container-fluid">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnInbox" autocomplete="off"
+                                checked>
+                            <label class="btn btn-outline-primary" for="btnradio1">Inbox</label>
 
-                    <input type="radio" class="btn-check" name="btnradio" id="btnTrash" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btnradio3">Trash</label>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnSent" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio2">Sent</label>
 
-                    <input type="radio" class="btn-check" name="btnradio" id="btnSpam" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btnradio3">Spam</label>
-                  </div>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnDrafts" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio3">Drafts</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnTrash" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio3">Trash</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnSpam" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio3">Spam</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <input class="container-fluid" type="text">
+                </div>
+            </nav>
+        </div>
+        <div class="row " id="email-list">
+            <div class="row email-item border-top border-bottom">
+                <div class="col-8">
+                    <div class="row">
+                        <h4>Contact</h4>
+                    </div>
+                    <div class="row">
+                        <h3>Subject</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h6>Date</h6>
+                </div>
             </div>
-        </nav>
+
+            <div class="row email-item border-top border-bottom">
+                <div class="col-8">
+                    <div class="row">
+                        <h4>Contact</h4>
+                    </div>
+                    <div class="row">
+                        <h3>Subject</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h6>Date</h6>
+                </div>
+            </div>
+
+            <div class="row email-item border-top border-bottom">
+                <div class="col-8">
+                    <div class="row">
+                        <h4>Contact</h4>
+                    </div>
+                    <div class="row">
+                        <h3>Subject</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h6>Date</h6>
+                </div>
+            </div>
+
+        </div>
     </div>
-    
-    
+
+
 
 
 
