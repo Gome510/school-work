@@ -1,0 +1,21 @@
+//Pablo Gomez-Echegaray
+//pgomezec
+//pa2
+
+README:
+Outlines purposes/functions and names of files that are to be submitted.
+
+Sparse.c:
+Purpose: To carry out Matrix operations on the matrices from the input file and outputs the results into the output files.
+
+Matrix.c: Contains the functions that perform the Matrix ADT Operations. Ran out of time and was worried about other classes so I can't finish this yet.
+
+Matrix.h: Contains the all Matrix ADT function headers and typedefs.
+
+List.c: Contains all the fucntions that perfrom List ADT Operations.
+
+List.h: Contains all the List ADT function headers and typedefs.
+
+Makefile: Compiles the necessary files to be run.
+
+MatrixTest.c & ListTest.c: Admittedly these files do not contain many additions to the ListClient and MatrixClient files. The way I tested my Matrix and List ADTs using these files was to isolate certain operations, such as the first call to changeEntry(), to block test them. In this way I was able to properly create the functions that I was able to include. I still have trouble figuring out how to free the Entry object that Node->index points to. 

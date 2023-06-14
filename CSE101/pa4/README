@@ -1,0 +1,20 @@
+PABLO GOMEZ-ECHEGARAY
+PGOMEZEC
+PA4
+README
+
+FindPath.c : Graph.c client that finds shortest paths using BFS.
+
+List.c: Holds all List ADT operation source code which is included in Graph.c
+
+List.h: Holds all List ADT headers.
+
+Graph.c: Holds all Graph ADT operation source code which is included in FindPath.c.
+
+Graph.h: Holds all Graph ADT headers.
+
+GraphTest.c: Serves to test code for Graph operations.
+
+Makefile: Compiles all files necessary for execution of FindPath.c
+
+README: Details the purposes of each file submitted for pa4.

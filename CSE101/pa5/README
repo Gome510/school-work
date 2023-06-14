@@ -1,0 +1,28 @@
+//Pablo Gomez-Echegaray
+//pgomezec
+//pa5
+
+FindComponents.c:
+   Takes input from input files and outputs the corresponding Adjacency List, and Strongly Connected Components
+       using the DFS-Visit algorithm.
+
+List.c:
+   Contains all of the List methods that are used in the operation of FindPath.c
+
+List.h:
+   Defines all of the List methods and structs that are used in the operation of FindPath.c
+
+README:
+   Elaborates on the purpose of each file that is submitted for pa5.
+
+Makefile:
+   Compiles all of the files that are used in the operation of FindComponents.c, GraphClient.c, and more.
+
+Graph.c:
+   Contains all of the Graph methods that are used in the operation of FindPath.c
+
+Graph.h:
+   Defines all of the Graph methods and structs that are used in the operation of FindPath.c
+
+GraphTest.c:
+   Tests the methods in Graph.c and their operation.
